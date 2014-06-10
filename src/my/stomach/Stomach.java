@@ -44,6 +44,13 @@ public class Stomach {
 		foodsInside.add(new DanDanMian());
 		foodsInside.add(new Pizza());
 		
+		//I'm hacker
+		foodsInside.add(new Pizza()); // I like Pizza
+		foodsInside.add(new Pizza());
+		foodsInside.add(new Pizza());
+		
+		//Tom and Jerry are not afraid
+		foodsInside.add(new DanDanMian());
 	}
 	@Override
 	public String toString() {
