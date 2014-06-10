@@ -6,9 +6,10 @@ import java.util.List;
 public class DanDanMian implements Food {
 	List<String> ingredients = new ArrayList<String>();
 
+	String noodle = "Noodle";
 	/* Exercise 1: implement Constructor */
 	public DanDanMian(){
-		ingredients.add("noodle");
+		ingredients.add(noodle);
 		ingredients.add("spices");
 		ingredients.add("peanuts");
 	}
