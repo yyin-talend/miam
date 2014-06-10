@@ -7,6 +7,11 @@ public class DanDanMian implements Food {
 	List<String> ingredients = new ArrayList<String>();
 
 	/* Exercise 1: implement Constructor */
+	public DanDanMian(){
+		ingredients.add("noodle");
+		ingredients.add("spices");
+		ingredients.add("peanuts");
+	}
 	
 	@Override
 	public List<String> getIngredients() {
