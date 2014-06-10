@@ -3,8 +3,6 @@ package my.stomach;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import my.food.ChaShaoBao;
 import my.food.DanDanMian;
 import my.food.Food;
@@ -18,8 +16,9 @@ public class Stomach {
 		foodsInside.add(new Pizza());
 
 		/* Exercise 2 : add your food */
-
+		//second time add
 		foodsInside.add(new DanDanMian());
+
 		//add another food
 		foodsInside.add(new ChaShaoBao());
 
@@ -27,6 +26,12 @@ public class Stomach {
 
 		/* Exercise 2 : add food by msjian*/
 		foodsInside.add(new ChaShaoBao());
+
+
+		foodsInside.add(new DanDanMian());
+		//add 3rd time
+		foodsInside.add(new DanDanMian());
+		foodsInside.add(new Pizza());
 
 	}
 	@Override
