@@ -36,6 +36,9 @@ public class Stomach {
 		/* Exercise 2 : add food by msjian*/
 		foodsInside.add(new ChaShaoBao());
 
+		/*Add more food by TOM */
+		foodsInside.add(new DanDanMian());
+		foodsInside.add(new Pizza());
 
 	}
 	@Override
