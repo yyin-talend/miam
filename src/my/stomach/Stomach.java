@@ -24,11 +24,8 @@ public class Stomach {
 
 		foodsInside.add(new Pizza()); //want more Pizza
 
-		/* Exercise 2 : add food by msjian*/
+		// delete the last commit msjian
 		foodsInside.add(new ChaShaoBao());
-		foodsInside.add(new ChaShaoBao());
-
-
 
 		foodsInside.add(new DanDanMian());
 		//add 3rd time
