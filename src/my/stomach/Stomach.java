@@ -16,6 +16,7 @@ public class Stomach {
 	
 	public Stomach() {
 		foodsInside.add(new Pizza());
+
 		/* Exercise 2 : add your food */
 
 		foodsInside.add(new DanDanMian());
@@ -23,6 +24,10 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao());
 
 		foodsInside.add(new Pizza()); //want more Pizza
+
+		/* Exercise 2 : add food by msjian*/
+		foodsInside.add(new ChaShaoBao());
+
 	}
 	@Override
 	public String toString() {
