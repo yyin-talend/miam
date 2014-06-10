@@ -6,7 +6,14 @@ import java.util.List;
 public class DanDanMian implements Food {
 	List<String> ingredients = new ArrayList<String>();
 
+	String noodle = "Noodle";
 	/* Exercise 1: implement Constructor */
+	public DanDanMian(){
+		ingredients.add(noodle);
+		ingredients.add("spices");
+		ingredients.add("peanuts");
+		ingredients.add("branch");
+	}
 	
 	@Override
 	public List<String> getIngredients() {
@@ -15,8 +22,7 @@ public class DanDanMian implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
+		return "CHINA";
 	}
 
 	@Override
