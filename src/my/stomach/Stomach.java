@@ -28,10 +28,12 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao());
 
 
+
 		foodsInside.add(new DanDanMian());
 		//add 3rd time
 		foodsInside.add(new DanDanMian());
 		foodsInside.add(new Pizza());
+
 
 	}
 	@Override
