@@ -27,8 +27,7 @@ public class Pizza implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
+		return Country.getInstance().getCountryForPizza();
 	}
 
 	@Override

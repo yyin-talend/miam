@@ -22,7 +22,7 @@ public class DanDanMian implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		return "CHINA";
+		return  Country.getInstance().getCountryForDanDanMian();
 	}
 
 	@Override

@@ -67,6 +67,8 @@ public class Stomach {
 			sb.append("\n\n");
 			
 			/* Exercise 3: Display the country of origin see class Country */ 
+			sb.append(food.getCountryOrigin());
+			sb.append("\n\n");
 			
 		}
 		return sb.toString();
