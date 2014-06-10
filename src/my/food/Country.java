@@ -10,6 +10,10 @@ public class Country {
 		return "ChaShaoBao-USA";
 	}
 	
+	public String getCountryForHmaburger(){
+		return "Hmaburger-USA";
+	}
+	
 	public String getCountryForDanDanMian(){
 		return "DanDanMian-USA";
 	}
