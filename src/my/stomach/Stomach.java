@@ -11,7 +11,7 @@ import my.food.Pizza;
 public class Stomach {
 
 	List<Food> foodsInside = new ArrayList<Food>();
-	
+	boolean a = true;
 	public Stomach() {
 		foodsInside.add(new Pizza());
 
