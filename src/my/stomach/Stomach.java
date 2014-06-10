@@ -12,6 +12,10 @@ public class Stomach {
 
 	List<Food> foodsInside = new ArrayList<Food>();
 	boolean a = true;
+	
+	//add String
+	String b = "the 5th time";
+	
 	public Stomach() {
 		foodsInside.add(new Pizza());
 
